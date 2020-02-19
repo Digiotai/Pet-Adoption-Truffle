@@ -1,7 +1,7 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 require('dotenv').config();
 
-const MNEMONIC = "ensure bridge vital ahead glare own wear pelican where lake material mandate";
+const MNEMONIC = "slush jeans near thank annual cushion illegal that melody mansion lizard object";
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // for more about customizing your Truffle configuration!
@@ -12,7 +12,7 @@ module.exports = {
       network_id: "*" // Match any network id
     },
     rinkeby:{
-      provider : () => new HDWalletProvider(MNEMONIC,"https://rinkeby.infura.io/v3/6caedd4ac9f44d6cb386e0c05b8cc6b4"),
+      provider : () => new HDWalletProvider(MNEMONIC,"https://rinkeby.infura.io/v3/c6e86b47ba654275b643cdc50705ab9e"),
       network_id : 4,
       networkCheckTimeout: 1000000,
     }
