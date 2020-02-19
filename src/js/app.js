@@ -34,7 +34,7 @@ App = {
     return App.initContract();
   },
 
-  initContract: function() {
+  initContract:async function() {
     $.getJSON("Adoption.json", function(data){
       var adoptionArtifact = data;
 
